@@ -1,0 +1,8 @@
+ $arr = array();
+        for ($i = 0; $i < 10; $i++) {
+            $arr[$i]['title'] = 'title' . $i;
+            $arr[$i]['detail'] = 'detail' . $i;
+            $arr[$i]['comment'] = $i;
+            $arr[$i]['img'] = 'img' . $i;
+        }
+        echo json_encode($arr);
